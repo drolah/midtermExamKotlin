@@ -26,7 +26,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Full Name"
                 android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:capitalize="words" />
 
             <EditText
                 android:id="@+id/course"
@@ -35,7 +36,8 @@
                 android:hint="Course"
                 android:layout_marginLeft="20dp"
                 android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:inputType="textCapCharacters|textAutoComplete"/>
         </LinearLayout>
 
         <LinearLayout
@@ -50,7 +52,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Age"
                 android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:numeric="integer"/>
 
             <EditText
                 android:id="@+id/address"
@@ -59,7 +62,8 @@
                 android:hint="Address"
                 android:layout_marginLeft="20dp"
                 android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:capitalize="words"/>
         </LinearLayout>
 
         <Button
